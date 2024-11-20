@@ -95,3 +95,26 @@ h1, h2, h3{
     text-transform: uppercase;
     color: var(--light-color);
 }
+.header-content h3{
+    color: var(--light-color);
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+.social-links{
+    display: flex;
+    margin-top: 3.5rem;
+}
+.social-links li a{
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-color);
+    margin-right: 1rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+.social-links li a:hover{
+    opacity: 0.9;
+}
